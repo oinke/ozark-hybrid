@@ -2,7 +2,7 @@
     "name": "ozark",
     "displayName": "Ozark",
     "version": "1.0.0",
-    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "description": "Ozark Hybrid",
     "main": "index.js",
     "scripts": {
         "lint": "polymer lint",
@@ -13,8 +13,8 @@
         "move": "mv ./build/es6-bundled/* ./www/ && npm run rmbuild",
         "rmbuild": "if [ -d 'build/' ]; then rm -Rf build/; fi"
     },
-    "author": "Apache Cordova Team",
-    "license": "Apache-2.0",
+    "author": "Ozark Team",
+    "license": "MIT",
     "dependencies": {
         "@polymer/app-layout": "^3.0.0-pre.15",
         "@polymer/app-route": "^3.0.0-pre.15",
@@ -44,6 +44,10 @@
     "engines": {
         "node": ">=8.0"
     },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/oinke/ozark-hybrid.git"
+    },
     "cordova": {
         "plugins": {
             "cordova-plugin-whitelist": {},
@@ -58,8 +62,10 @@
             "ios",
             "android",
             "osx",
-            "windows",
-            "browser"
+            "windows"
         ]
     }
 }
+
+
+
