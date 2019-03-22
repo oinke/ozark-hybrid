@@ -1,4 +1,4 @@
-#Thu Mar 21 20:59:21 CST 2019
-base.0=/Users/bkawk/Documents/ionic/cordova/MyApp/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+#Thu Mar 21 23:02:11 CST 2019
+base.0=/Users/bkawk/Documents/Ozark/ozark-hybrid/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

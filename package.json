@@ -45,8 +45,8 @@
         "node": ">=8.0"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/oinke/ozark-hybrid.git"
+        "type": "git",
+        "url": "git+https://github.com/oinke/ozark-hybrid.git"
     },
     "cordova": {
         "plugins": {
@@ -62,10 +62,8 @@
             "ios",
             "android",
             "osx",
-            "windows"
+            "windows",
+            "browser"
         ]
     }
 }
-
-
-
